@@ -1,0 +1,86 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    align-items:stretch;
+    background-color: beige;
+}
+
+#header{
+    color: palevioletred;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+}
+
+/* 
+#kitty{
+    height: 20px;
+    width: 20px;
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* trying */
+
+
+.first-row{
+    height: 250px;
+    /* width: 950px; */
+    background-color: lightpink;
+    /* margin: 0px auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* display: inline-block; failed*/
+    margin: 20px 80px;
+}
+
+.second-row{
+    height: 250px;
+    /* width: 950px; */
+    background-color: lightblue;
+    /* margin: 0px auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 80px;
+}
+
+.thrid-row{
+    height: 250px;
+    /* width: 950px; */
+    background-color: lightpink;
+    /* margin: 0px auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+/* 
+.sub-content{ß
+    height: 100px;
+    width: 100px;
+    /* display: inline-block; */
+
+
+img{
+    width: 150px;
+}
+/* trying */
+
+#source{
+    color: hotpink;
+    text-align: center;
+}
+
+span{
+    color: purple;
+    text-decoration: underline;
+}
